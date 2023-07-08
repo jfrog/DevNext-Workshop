@@ -54,6 +54,6 @@
   <img src="/01-artifactory-essentials/images/docker-command-display.png" alt="docker commands" style="height: 100px; width:100px;"/>
 
 ## Samples Repository Names :- 
-**Local** - `dnw1-devnext-docker-stage-local`
-**Remote** - `dnw1-devnext-docker-stage-remote`
-**Virtual** - `dnw1-devnext-docker-stage`
+- **Local** - `dnw1-devnext-docker-stage-local`
+- **Remote** - `dnw1-devnext-docker-stage-remote`
+- **Virtual** - `dnw1-devnext-docker-stage`

@@ -35,7 +35,7 @@
 
 - Login to your docker virtual repository. Replace the  SERVER_NAME and VIRTUAL_REPO_NAME as mentioned in above step.
     - ``` $ docker login ${SERVER_NAME}.jfrog.io```
-    - - eg :- ``` docker login psapac.jfrog.io ```
+    - eg :- ``` docker login psapac.jfrog.io ```
       
       <img src="/01-artifactory-essentials/images/login-docker.png" alt="docker login" style="height: 100px; width:100px;"/>
       

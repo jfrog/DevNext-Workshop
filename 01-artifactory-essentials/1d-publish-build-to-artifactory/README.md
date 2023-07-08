@@ -23,19 +23,19 @@
     ```jf config show```
 
 ## Step 2 - Clone repo from Public URL
-Go to URL - https://github.com/ramkannans-jfrog/devnext-workshop
-``` git clone https://github.com/ramkannans-jfrog/devnext-workshop.git```
+- Go to URL - https://github.com/ramkannans-jfrog/devnext-workshop
+- ``` git clone https://github.com/ramkannans-jfrog/devnext-workshop.git```
 
 ## Step 3 - Try JFrog CLI Upload Command
 ### To upload any files or to deploy your artifacts use the following command
-- ```jf rt u <file-name> <repo-name> [properties]```
+```jf rt u <file-name> <repo-name> [properties]```
 - eg : ``` jf rt u froggy.zip cpe-generic-local-devnext --target-props "ramkannans=jfrog" ```
 - Source Pattern: Specifies the local file system path to artifacts which should be uploaded to Artifactory.
 - Target Pattern: Specifies the target path in Artifactory in the following format: repository-name/repository-path.
 
 ## Step 4 - Perform your builds and publishes using JFrog CLI
 ### To do a docker push using JFrog CLI use the following command
-- ```jf rt docker-push ${SERVER_NAME}.jfrog.io/${VIRTUAL_REPO_NAME}/my-docker-image:latest ${VIRTUAL_REPO_NAME} --build-name=<your-name> --build-number=<build-number> --project=<devnext-workshop-{i}>```
+```jf rt docker-push ${SERVER_NAME}.jfrog.io/${VIRTUAL_REPO_NAME}/my-docker-image:latest ${VIRTUAL_REPO_NAME} --build-name=<your-name> --build-number=<build-number> --project=<devnext-workshop-{i}>```
 
 - ``` jf rt docker-push psapac.jfrog.io/dnw1-devnext-docker-stage/jfrog-docker-image:1.0.7 dnw1-devnext-docker-stage --build-name=ramkannans-build --build-number=5 --project=dnw1 ``` 
 
