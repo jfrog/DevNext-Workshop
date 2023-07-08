@@ -3,6 +3,7 @@
   - [Step 1 - Local Repository - Docker](#step-1---local-repository---docker)
   - [Step 2 - Remote Repository - Docker](#step-2---remote-repository---docker)
   - [Step 3 - Virtual  Repository - Docker](#step-3---virtual--repository---docker)
+  - [Samples Repository Names :-](#samples-repository-names--)
 
 # JFrog Artifactories - Creating repositories
 
@@ -52,3 +53,7 @@
 
   <img src="/01-artifactory-essentials/images/docker-command-display.png" alt="docker commands" style="height: 100px; width:100px;"/>
 
+## Samples Repository Names :- 
+**Local** - `dnw1-devnext-docker-stage-local`
+**Remote** - `dnw1-devnext-docker-stage-remote`
+**Virtual** - `dnw1-devnext-docker-stage`
