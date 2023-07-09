@@ -28,8 +28,8 @@
 
 ## Step 3 - Try JFrog CLI Upload Command
 ### To upload any files or to deploy your artifacts use the following command
-```jf rt u <file-name> <repo-name> [properties]```
-- eg : ``` jf rt u froggy.zip cpe-generic-local-devnext --target-props "ramkannans=jfrog" ```
+```jf rt u <file-name> <repo-name>/<username>/ --target-props [properties]```
+- eg : ``` jf rt u froggy.zip cpe-generic-local-devnext/ramkannans/ --target-props "ramkannans=jfrog" ```
 - Source Pattern: Specifies the local file system path to artifacts which should be uploaded to Artifactory.
 - Target Pattern: Specifies the target path in Artifactory in the following format: repository-name/repository-path.
 
